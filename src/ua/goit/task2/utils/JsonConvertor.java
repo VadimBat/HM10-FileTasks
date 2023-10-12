@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class JsonConvertor {
     public void convertAndPrintResults(File file){
+
         DataReader usersData = new DataReader();
         ArrayList<User> users = new ArrayList<>();
         users = usersData.contentRead(file);
